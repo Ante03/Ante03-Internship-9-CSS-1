@@ -10,9 +10,10 @@ footer {
   gap: 20px;
   text-align: center;
   font-size: 21px;
+  margin: 0px 2em;
 }
 
-.footer_section h2 {
+.footer_section h3 {
   grid-column: span 2;
   text-align: left;
 }
@@ -24,6 +25,7 @@ footer {
   list-style: none;
   padding: 0;
   margin: 0;
+  line-height: 1.71em;
 }
 
 .footer_section_sections_links ul li {
@@ -50,7 +52,20 @@ p {
   text-align: center;
 }
 
+.footer_section_manage{
+    padding: 50px 10px 100px;
+}
+
+
 .footer_section_rights {
   padding: 10px 40px;
   width: 80%;
+}
+
+hr {
+    margin: 0px 2em;
+}
+
+.footer_title{
+    text-align: center;
 }
