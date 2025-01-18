@@ -10,7 +10,7 @@ footer {
   gap: 20px;
   text-align: center;
   font-size: 21px;
-  margin: 0px 2em;
+  margin: 0px 5em;
 }
 
 .footer_section h3 {
@@ -52,20 +52,20 @@ p {
   text-align: center;
 }
 
-.footer_section_manage{
-    padding: 50px 10px 100px;
+.footer_section_manage {
+  padding: 50px 10px 100px;
 }
 
-
 .footer_section_rights {
-  padding: 10px 40px;
+  padding: 10px;
   width: 80%;
+  margin: 0 5em;
 }
 
 hr {
-    margin: 0px 2em;
+  margin: 0px 5em;
 }
 
-.footer_title{
-    text-align: center;
+.footer_title {
+  text-align: center;
 }

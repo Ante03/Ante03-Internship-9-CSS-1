@@ -1,0 +1,30 @@
+main {
+  margin: 0 5em;
+}
+
+main a {
+  text-decoration: none;
+  color: #000;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 21px;
+  line-height: 1.5em;
+}
+
+main img {
+  width: 100%;
+  height: 50%;
+}
+
+main h3:hover {
+  text-decoration: underline;
+}
+
+.articles_parts_author {
+  font-weight: bold;
+}
