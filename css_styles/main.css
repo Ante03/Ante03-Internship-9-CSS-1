@@ -11,7 +11,7 @@ main a {
 .articles {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  gap: 30px;
   font-family: "Times New Roman", Times, serif;
   font-size: 21px;
   line-height: 1.5em;
@@ -25,6 +25,10 @@ main img {
 
 main h3{
     font-weight: 500;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 main h3:hover {
@@ -37,4 +41,24 @@ main h3:hover {
 
 main hr{
     margin: 0 5em;
+}
+
+#title_image{
+    width: 500px;
+    height: auto;
+}
+
+.articles_talk_of_the_town{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    line-height: 1.375em;
+    padding: 50px 10px;
+}
+
+.articles_talk_of_the_town img{
+    width: 80%;
+    height: 350px;
 }
