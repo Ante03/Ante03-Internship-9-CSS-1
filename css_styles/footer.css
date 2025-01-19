@@ -70,7 +70,7 @@ footer hr {
   text-align: center;
 }
 
-#footer_section_more_2{
+#footer_section_more_2 {
   display: none;
 }
 
@@ -118,11 +118,11 @@ footer hr {
     font-size: 18px;
   }
 
-  #footer_section_more{
+  #footer_section_more {
     display: none;
   }
 
-  #footer_section_more_2{
+  #footer_section_more_2 {
     display: flex;
     justify-content: center;
     align-items: center;

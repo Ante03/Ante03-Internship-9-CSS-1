@@ -78,7 +78,7 @@ talk_of_the_town_div {
     padding: 10px;
   }
 
-  .articles, 
+  .articles,
   .articles_talk_of_the_town {
     grid-template-columns: 1fr;
     gap: 15px;

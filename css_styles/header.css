@@ -58,6 +58,15 @@
   text-decoration: underline;
 }
 
+#header_content_1 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#header_content_1 h2:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 360px) {
   #header_content_1 {
     flex-direction: column;
