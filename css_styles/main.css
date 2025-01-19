@@ -23,12 +23,12 @@ main img {
   height: 350px;
 }
 
-main h3{
-    font-weight: 500;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+main h3 {
+  font-weight: 500;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 main h3:hover {
@@ -39,26 +39,82 @@ main h3:hover {
   font-weight: bold;
 }
 
-main hr{
-    margin: 0 5em;
+main hr {
+  margin: 0 5em;
 }
 
-#title_image{
-    width: 500px;
+#title_image {
+  width: 500px;
+  height: auto;
+}
+
+.articles_talk_of_the_town {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  line-height: 1.375em;
+  padding: 50px 10px;
+}
+
+.articles_talk_of_the_town img {
+  width: 80%;
+  height: 350px;
+}
+
+#talk_of_the_town {
+  font-size: 50px;
+  text-decoration: none;
+}
+
+talk_of_the_town_div {
+  text-align: center;
+}
+
+@media (max-width: 360px) {
+  main {
+    margin: 0 1em;
+    padding: 10px;
+  }
+
+  .articles, 
+  .articles_talk_of_the_town {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 20px 5px;
+  }
+
+  main img {
+    width: 100%;
     height: auto;
-}
+  }
 
-.articles_talk_of_the_town{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 21px;
-    line-height: 1.375em;
-    padding: 50px 10px;
-}
+  main h3 {
+    font-size: 18px;
+  }
 
-.articles_talk_of_the_town img{
-    width: 80%;
-    height: 350px;
+  #title_image {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .articles_talk_of_the_town img {
+    width: 100%;
+  }
+
+  #talk_of_the_town {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  talk_of_the_town_div {
+    padding: 10px;
+    text-align: center;
+  }
+
+  main hr {
+    margin: 10px 1em;
+  }
 }

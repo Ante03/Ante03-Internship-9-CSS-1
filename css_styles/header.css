@@ -57,3 +57,38 @@
 .header_content_2_links:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 360px) {
+  #header_content_1 {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .header_content_1_section_1,
+  .header_content_1_section_2 {
+    width: 100%;
+    padding: 5vw;
+  }
+
+  #header_content_1_section_1_title {
+    font-size: 24px;
+  }
+
+  #header_content_1_section_1_text {
+    font-size: 18px;
+  }
+
+  .header_content_1_section_2 img {
+    width: 100%;
+  }
+
+  #header_content_2 {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .header_content_2_links {
+    padding: 10px 0;
+  }
+}
